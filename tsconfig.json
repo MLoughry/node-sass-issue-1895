@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "jsx": "react",
+        "importHelpers": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "preserveConstEnums": true,
+        "outDir": "obj",
+        "rootDir": "packages",
+        "declaration": true,
+        "noUnusedLocals": true,
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "obj"
+    ]
+}

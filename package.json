@@ -1,0 +1,34 @@
+{
+  "name": "node-sass-issue-1895",
+  "version": "1.0.0",
+  "description": "A minimum repro for node-sass issue #1895",
+  "main": "dist/scripts/owa.main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "miclo@microsoft.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "@microsoft/loader-load-themed-styles": "0.0.5",
+    "autoprefixer": "^6.7.0",
+    "css-loader": "~0.23.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "merge2": "^1.0.3",
+    "node-sass": "~4.4.0",
+    "postcss-inline-rtl": "^0.9.0",
+    "postcss-loader": "~0.8.2",
+    "require-dir": "^0.3.1",
+    "run-sequence": "^1.2.2",
+    "sass-loader": "^5.0.1",
+    "style-loader": "~0.12.3",
+    "tslint": "^4.4.2",
+    "tslint-eslint-rules": "^3.2.3",
+    "tslint-microsoft-contrib": "^4.0.0",
+    "typescript": "^2.1.5",
+    "webpack": "^2.2.1",
+    "webpack-fail-plugin": "^1.0.5"
+  }
+}
